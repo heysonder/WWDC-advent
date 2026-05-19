@@ -23,6 +23,7 @@ type CalendarDay = {
   input?: PredictionInput;
   link?: string;
   youtube?: string;
+  video?: string;
 };
 
 type PhaseMeta = {
@@ -74,6 +75,7 @@ const days: CalendarDay[] = [
     title: "Coming bright up",
     body:
       "Apple's WWDC 2026 tagline, revealed today with media invites. Cryptic, but the glowing invite art is widely read as a tease of the new Siri interface. First door of the calendar is the teaser Apple just dropped — fitting.",
+    video: "/coming-bright-up.mp4",
     sources: [
       {
         title: "Apple kicks off Worldwide Developers Conference on June 8",
@@ -772,6 +774,17 @@ function RevealDoor({
       <div className="mt-6 flex-1">
         {revealed ? (
           <>
+            {day.video ? (
+              <video
+                src={day.video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                className="mb-4 aspect-square w-full rounded-lg border border-ctp-surface0 bg-ctp-crust object-cover"
+              />
+            ) : null}
             <h3 className="text-base font-semibold leading-snug text-ctp-text">{day.title}</h3>
             <p className="mt-2.5 text-sm leading-relaxed text-ctp-subtext0">{day.body}</p>
             {day.sources && day.sources.length > 0 ? <SourcesButton day={day} /> : null}
