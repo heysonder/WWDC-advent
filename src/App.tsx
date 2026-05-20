@@ -275,8 +275,18 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "The standalone Siri app",
     body:
-      "MacRumors reports Apple may introduce a standalone Siri app across iOS 27, iPadOS 27, and macOS 27 — text and voice modes, past conversations, and third-party integration through a reported Extensions feature. This is the ChatGPT-app-shaped hole in Apple's lineup. If it ships, it's the biggest interface-level change in years.",
+      "MacRumors reports Apple may introduce a standalone Siri app across iOS 27, iPadOS 27, and macOS 27 — text and voice modes, past conversations, third-party Extensions, uploads, and privacy controls that can auto-delete chats after 30 days or a year. This is the ChatGPT-app-shaped hole in Apple's lineup. If it ships, it's the biggest interface-level change in years.",
     sources: [
+      {
+        title: "iOS 27: Dedicated Siri App to Include Auto-Deleting Chats Feature",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/05/18/ios-27-siri-app-auto-deleting-chats-feature/",
+      },
+      {
+        title: "iOS 27 Getting Major Siri Redesign With Chat Interface and Dedicated App",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/05/12/ios-27-siri-redesign/",
+      },
       {
         title: "iOS 27: standalone Siri app with Extensions rumored",
         publisher: "MacRumors",
@@ -325,8 +335,18 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "Gemini lives inside Siri",
     body:
-      "The most-buried rumor of the cycle: Apple inked a multi-year deal in January reportedly worth ~$1B/year for a custom 1.2-trillion-parameter Gemini model that powers the new Siri's world-knowledge answers — chosen over Anthropic (asked for several billion a year) and OpenAI. Apple's \"intelligence\" runs on Google's brain. Watch how loudly Federighi says the word \"Gemini\" — or doesn't.",
+      "This moved from rumor to confirmed strategy: Apple and Google announced a multi-year Gemini collaboration in January, after Bloomberg reported a roughly $1B/year custom 1.2-trillion-parameter model for the new Siri. Apple says Gemini will help power future Apple Intelligence features while Apple keeps its privacy story around Private Cloud Compute. Watch how loudly Federighi says the word \"Gemini\" — or doesn't.",
     sources: [
+      {
+        title: "Apple Confirms Google Gemini Will Power Next-Generation Siri This Year",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/01/12/google-gemini-next-generation-siri/",
+      },
+      {
+        title: "Google Gemini Partnership With Apple Will Go Beyond Siri Revamp",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/01/12/google-gemini-future-apple-intelligence-features/",
+      },
       {
         title: "Apple plans to use 1.2-trillion-parameter Google Gemini model to power new Siri",
         publisher: "Bloomberg",
@@ -355,12 +375,17 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "The hardware gate",
     body:
-      "New Apple Intelligence features in iOS 27 are rumored to require an iPhone 15 Pro or newer, even as iOS 27 itself supports devices back to the iPhone 12. Quietly the most consequential rumor: it tells you how aggressively Apple is willing to fork its install base for AI.",
+      "iOS 27 itself is rumored to support iPhone 12 and newer, but the Apple Intelligence floor remains much higher: Apple's own support page still lists iPhone 15 Pro or newer for the AI features. Quietly the most consequential split: a lot of phones may get iOS 27 while still missing the keynote feature set.",
     sources: [
       {
-        title: "iOS 27 supported devices",
-        publisher: "iOS 27 Beta",
-        url: "https://ios27beta.com/supported-devices/",
+        title: "Apple to Unveil iOS 27 and macOS 27 Next Month With These Features",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/05/07/ios-27-and-macos-27-rumored-features/",
+      },
+      {
+        title: "iOS 27 will drop support for four iPhone models, says leaker",
+        publisher: "9to5Mac",
+        url: "https://9to5mac.com/2026/04/20/ios-27-will-drop-support-for-four-iphone-models-says-leaker/",
       },
       {
         title: "Apple Intelligence system requirements",
@@ -380,8 +405,13 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "Health & readiness on the Watch",
     body:
-      "The Apple Watch likely benefits from a promised Health app overhaul: redesigned interface, a scaled-back health coach (Bloomberg confirmed in Feb 2026 that 'Project Mulberry' wound down), and more insights. Plus an AI-powered readiness score based on sleep and heart rate — Body Battery from Garmin, basically. Apple chasing Garmin, Whoop, and Oura is the story.",
+      "The Apple Watch story looks less like a full AI coach now and more like practical health surfaces. Bloomberg said Apple scaled back Project Mulberry in February, but Apple just previewed Apple Intelligence-powered accessibility features across VoiceOver, Magnifier, Voice Control, and generated subtitles. For watchOS, the bet is smaller and more believable: better health context and readiness-style insights, not a doctor in your wrist.",
     sources: [
+      {
+        title: "Apple unveils new accessibility features, and updates with Apple Intelligence",
+        publisher: "Apple Newsroom",
+        url: "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      },
       {
         title: "Apple is scaling back plans for new AI-based health coach service",
         publisher: "Bloomberg",
@@ -439,8 +469,13 @@ const days: CalendarDay[] = [
     phase: "stretch",
     title: "The developer API question",
     body:
-      "The whole AI story collapses or succeeds on one question: do third-party devs get real Foundation Models APIs with system-level intent routing, or just App Intents glue tied to a fee schedule Apple hasn't ruled out? If Apple announces a Siri Extensions fee, watch developers go cold instantly. Watch the Platforms State of the Union right after the keynote, not the keynote itself.",
+      "The whole AI story collapses or succeeds on one question: do third-party devs get real Foundation Models APIs with system-level intent routing, or just App Intents glue tied to a fee schedule Apple hasn't ruled out? Apple's May 19 accessibility preview showed natural-language Voice Control moving around the system, which is exactly the kind of capability developers will want exposed cleanly. Watch the Platforms State of the Union right after the keynote, not just the keynote itself.",
     sources: [
+      {
+        title: "Apple unveils new accessibility features, and updates with Apple Intelligence",
+        publisher: "Apple Newsroom",
+        url: "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      },
       {
         title: "Foundation Models framework",
         publisher: "Apple Developer",
@@ -477,8 +512,18 @@ const days: CalendarDay[] = [
     phase: "stretch",
     title: "Codename Charismatic",
     body:
-      "A smart home hub and a tabletop robot with a 7-inch swiveling display, due 2027. homeOS trademarks have been filed via a shell company; references appeared in tvOS betas. Whether the hub debuts at WWDC or has already slipped, this is when the software flag goes down. Listen for \"Home\" and \"homeOS\" in any sentence Federighi or Ternus speaks.",
+      "A smart home hub and a tabletop robot with a 7-inch swiveling display remain on the rumor board, but the near-term hardware story has slipped: reports now point to a HomePad-style hub later in 2026, tied to the new Siri/tvOS 27 timeline, while the robot is still a 2027-ish idea. WWDC is more likely to reveal the software flag than the device. Listen for \"Home,\" \"tvOS,\" and \"homeOS\" in any sentence Federighi or Ternus speaks.",
     sources: [
+      {
+        title: "HomePad reportedly delayed (again), and it's all Siri's fault (again)",
+        publisher: "Macworld",
+        url: "https://www.macworld.com/article/3083918/homepad-reportedly-delayed-again-and-its-all-siris-fault-again.html",
+      },
+      {
+        title: "Apple's smart home hub delayed again because modernizing Siri is hard",
+        publisher: "AppleInsider",
+        url: "https://appleinsider.com/articles/26/03/09/apples-smart-home-hub-delayed-again-because-updating-siri-is-hard",
+      },
       {
         title: "Apple homeOS 'Charismatic' smart hub and tabletop robot",
         publisher: "iGeeksBlog",
