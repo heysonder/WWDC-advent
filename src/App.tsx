@@ -130,7 +130,7 @@ const days: CalendarDay[] = [
     phase: "setup",
     title: "1997: The Microsoft check",
     body:
-      "August 1997. Macworld Boston. Jobs — back at Apple eight months — announced Bill Gates was investing $150M. The crowd booed Gates on the screen. Apple was that close to bankrupt. Twenty-nine years later, Apple's market cap is over $4 trillion and it's paying ~$1B/year to Google for Gemini access. The dependency hasn't changed — just the dollar amounts and the partner.",
+      "August 1997. Macworld Boston. Jobs — back at Apple eight months — announced Bill Gates was investing $150M. The crowd booed Gates on the screen. Apple was that close to bankrupt. Twenty-nine years later, Apple's market cap is around $4.5 trillion and it's paying ~$1B/year to Google for Gemini access. The dependency hasn't changed — just the dollar amounts and the partner.",
     sources: [
       {
         title: "August 6, 1997 — the day Apple and Microsoft made peace",
@@ -200,7 +200,7 @@ const days: CalendarDay[] = [
     phase: "setup",
     title: "2024: The Bella Ramsey ad",
     body:
-      "September 2024. Apple runs a TV spot: Bella Ramsey asks Siri the name of someone she met at a cafe. Siri pulls it from her calendar. The feature didn't exist. The ad ran anyway. Apple quietly unlisted the video in March 2025; a class-action settled for $250M five weeks ago. Whatever Federighi promises about Siri on June 8, the legal department has been over every word.",
+      "September 2024. Apple runs a TV spot: Bella Ramsey asks Siri the name of someone she met at a cafe. Siri pulls it from her calendar. The feature didn't exist. The ad ran anyway. Apple quietly unlisted the video in March 2025; a class-action settled for $250M earlier this month. Whatever Federighi promises about Siri on June 8, the legal department has been over every word.",
     sources: [
       {
         title: "Apple pulls Bella Ramsey ad that promoted vaporware personalized Siri feature",
@@ -275,8 +275,13 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "The standalone Siri app",
     body:
-      "MacRumors reports Apple may introduce a standalone Siri app across iOS 27, iPadOS 27, and macOS 27 — text and voice modes, past conversations, third-party Extensions, uploads, and privacy controls that can auto-delete chats after 30 days or a year. This is the ChatGPT-app-shaped hole in Apple's lineup. If it ships, it's the biggest interface-level change in years.",
+      "MacRumors reports Apple may introduce a standalone Siri app across iOS 27, iPadOS 27, and macOS 27 — text and voice modes, past conversations, third-party Extensions, uploads, and privacy controls that can auto-delete chats after 30 days or a year. The caution sign: Gurman says internal iOS 27 builds still label the personalized Siri experience as beta. This is the ChatGPT-app-shaped hole in Apple's lineup, but Apple may frame it as unfinished on day one.",
     sources: [
+      {
+        title: "iOS 27's Biggest New Feature Has 'Beta' Label",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/05/19/ios-27-biggest-feature-has-beta-label/",
+      },
       {
         title: "iOS 27: Dedicated Siri App to Include Auto-Deleting Chats Feature",
         publisher: "MacRumors",
@@ -310,8 +315,18 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "Liquid Glass, take 2",
     body:
-      "Per Gurman, macOS 27 will get a slight redesign over macOS Tahoe, aimed at improving the readability of Tahoe's Liquid Glass interface. Translation: Apple shipped a design language people complained about, and is now backpedaling on transparency. A rare public course-correct.",
+      "The next OS cycle looks less like another giant redesign and more like cleanup. Per Gurman, macOS 27 should tweak Tahoe's Liquid Glass interface for readability, while iOS 27 is being framed as a Snow Leopard-style release: stability, efficiency, foldable prep, satellite features, and Siri. Translation: Apple shipped a loud design language last year; this year it needs the software to feel calmer and more reliable.",
     sources: [
+      {
+        title: "iOS 27: Everything We Know",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/roundup/ios-27/",
+      },
+      {
+        title: "iOS 27 release date, features, compatibility, Siri & Apple Intelligence rumors",
+        publisher: "Macworld",
+        url: "https://www.macworld.com/article/2986799/ios-27-features-compatiblity-apple-intelligence-release-date-rumors.html",
+      },
       {
         title: "Report: macOS 27 to feature UI tweaks to address Tahoe design complaints",
         publisher: "9to5Mac",
@@ -405,8 +420,13 @@ const days: CalendarDay[] = [
     phase: "rumors",
     title: "Health & readiness on the Watch",
     body:
-      "The Apple Watch story looks less like a full AI coach now and more like practical health surfaces. Bloomberg said Apple scaled back Project Mulberry in February, but Apple just previewed Apple Intelligence-powered accessibility features across VoiceOver, Magnifier, Voice Control, and generated subtitles. For watchOS, the bet is smaller and more believable: better health context and readiness-style insights, not a doctor in your wrist.",
+      "The Apple Watch story looks less like a full AI coach now and more like practical health surfaces. Bloomberg said Apple scaled back Project Mulberry in February, while the freshest watchOS 27 reporting is more modest: new faces, including a simplified Modular Ultra-style option. For watchOS, the believable bet is smaller: better at-a-glance health context and readiness-style insights, not a doctor in your wrist.",
     sources: [
+      {
+        title: "watchOS 27 to Offer New Watch Faces, Including 'Modular Ultra' Variant",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/05/04/watchos-27-expected-to-have-new-watch-faces/",
+      },
       {
         title: "Apple unveils new accessibility features, and updates with Apple Intelligence",
         publisher: "Apple Newsroom",
@@ -418,14 +438,9 @@ const days: CalendarDay[] = [
         url: "https://www.bloomberg.com/news/articles/2026-02-05/apple-is-scaling-back-plans-for-new-ai-based-health-coach-service",
       },
       {
-        title: "WWDC keynote: what's launching for iOS, macOS, watchOS, hardware",
-        publisher: "Macworld",
-        url: "https://www.macworld.com/article/678333/wwdc-keynote-event-time-what-launch-ios-macos-watchos-hardware.html",
-      },
-      {
-        title: "Apple Health: new features and overhaul coming in iOS 26.4",
-        publisher: "9to5Mac",
-        url: "https://9to5mac.com/2026/01/11/apple-health-new-features-and-overhaul-coming-ios-26-4/",
+        title: "WWDC 2026: Everything to Expect",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/roundup/wwdc/",
       },
     ],
   },
@@ -469,8 +484,13 @@ const days: CalendarDay[] = [
     phase: "stretch",
     title: "The developer API question",
     body:
-      "The whole AI story collapses or succeeds on one question: do third-party devs get real Foundation Models APIs with system-level intent routing, or just App Intents glue tied to a fee schedule Apple hasn't ruled out? Apple's May 19 accessibility preview showed natural-language Voice Control moving around the system, which is exactly the kind of capability developers will want exposed cleanly. Watch the Platforms State of the Union right after the keynote, not just the keynote itself.",
+      "The whole AI story collapses or succeeds on one question: do third-party devs get real Foundation Models and Core AI hooks with system-level intent routing, or just App Intents glue tied to a fee schedule Apple hasn't ruled out? Apple's May accessibility preview showed natural-language Voice Control moving around the system, and the current iOS 27 roundup now points to a Core AI framework replacing Core ML. Watch the Platforms State of the Union right after the keynote, not just the keynote itself.",
     sources: [
+      {
+        title: "iOS 27: Everything We Know",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/roundup/ios-27/",
+      },
       {
         title: "Apple unveils new accessibility features, and updates with Apple Intelligence",
         publisher: "Apple Newsroom",
@@ -482,14 +502,9 @@ const days: CalendarDay[] = [
         url: "https://developer.apple.com/documentation/FoundationModels",
       },
       {
-        title: "Apple Siri app integration in iOS 27 faces developer-fee uncertainty",
-        publisher: "Gadget Hacks",
-        url: "https://apple.gadgethacks.com/news/apple-siri-app-integration-ios-27-faces-developer-fee-uncertainty/",
-      },
-      {
-        title: "WWDC26 developers: what to watch for",
-        publisher: "Apple Magazine",
-        url: "https://applemagazine.com/wwdc26-developers/",
+        title: "Apple wants apps to integrate with Siri in iOS 27, but one fear holds some back",
+        publisher: "9to5Mac",
+        url: "https://9to5mac.com/2026/05/13/apple-wants-apps-integrate-siri-ios-27-one-fear-holds-some-back/",
       },
       {
         title: "Apple's Foundation Models framework unlocks new intelligent app experiences",
@@ -504,7 +519,24 @@ const days: CalendarDay[] = [
     phase: "stretch",
     title: "Cook → Ternus choreography",
     body:
-      "Refine your Day 15 bet. By now there'll be leaks about who's presenting what. A hardware exec running a software keynote is a tell about where Apple thinks its next decade is.",
+      "Refine your Day 15 bet. The current counter-signal is that WWDC 2026 looks software-heavy: recent reporting says not to expect new Macs, even though Ternus is a hardware executive about to inherit the CEO job. If he appears anyway, it probably isn't to introduce a laptop — it's to frame Apple's next decade around AI hardware, home devices, and post-iPhone categories.",
+    sources: [
+      {
+        title: "Will there be new Macs at WWDC 2026?",
+        publisher: "AppleInsider",
+        url: "https://appleinsider.com/articles/26/05/18/dont-expect-new-macs-at-wwdc-2026",
+      },
+      {
+        title: "No new Macs or iPads before September",
+        publisher: "AppleInsider",
+        url: "https://appleinsider.com/articles/26/05/01/tim-cooks-remarks-strongly-suggest-that-there-are-no-new-macs-or-ipads-before-september",
+      },
+      {
+        title: "Tim Cook to become Apple Executive Chairman; John Ternus to become Apple CEO",
+        publisher: "Apple Newsroom",
+        url: "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      },
+    ],
   },
   {
     day: 4,
@@ -514,6 +546,11 @@ const days: CalendarDay[] = [
     body:
       "A smart home hub and a tabletop robot with a 7-inch swiveling display remain on the rumor board, but the near-term hardware story has slipped: reports now point to a HomePad-style hub later in 2026, tied to the new Siri/tvOS 27 timeline, while the robot is still a 2027-ish idea. WWDC is more likely to reveal the software flag than the device. Listen for \"Home,\" \"tvOS,\" and \"homeOS\" in any sentence Federighi or Ternus speaks.",
     sources: [
+      {
+        title: "Apple's Smart Home Hub Won't Launch Until September as Siri Remains Unfinished",
+        publisher: "MacRumors",
+        url: "https://www.macrumors.com/2026/03/09/apple-smart-home-hub-september/",
+      },
       {
         title: "HomePad reportedly delayed (again), and it's all Siri's fault (again)",
         publisher: "Macworld",
@@ -533,11 +570,6 @@ const days: CalendarDay[] = [
         title: "homeOS — everything we know",
         publisher: "MacRumors",
         url: "https://www.macrumors.com/guide/homeos/",
-      },
-      {
-        title: "Apple now expected to unveil homeOS-related hardware ahead of 2026 WWDC",
-        publisher: "AppleInsider",
-        url: "https://appleinsider.com/articles/25/06/15/apple-now-expected-to-unveil-homeos-related-hardware-ahead-of-2026-wwdc",
       },
     ],
   },
